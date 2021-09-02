@@ -1,0 +1,32 @@
+html, body, #app {
+    height: 100%;
+    margin: 0;
+    background: cornflowerblue;
+}
+
+#app {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.box div{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: solid 1px black;
+}
+
+#azul {
+    background: #3dd3fc;
+}
+
+#verde {
+    background: #3af25c;
+}
+
+#vermelho {
+    background: #e33d3d;
+}
